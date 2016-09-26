@@ -1,0 +1,27 @@
+.wrapper{
+position: absolute;
+width:960px;
+margin: 0 auto;
+top: 50px;
+}
+td{
+	padding: 0 5px ;
+}
+tr:nth-child(odd){
+	background: #ccc;
+}
+tr:nth-child(even){
+	background: #ddd;
+}
+table{
+	position: relative;
+	border: 1px solid black;
+	border-radius: 5px;
+	top: 50%;
+	left: 50%;
+}
+.paginate{
+position: relative;
+top: 0;
+	left: 50%;
+}
